@@ -17,11 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42c8a7cb-4254-4ec3-a5bf-79ffb97fd836" name="Default Changelist" comment="change">
-      <change afterPath="$PROJECT_DIR$/skin/images/login-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/com-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/com-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/icon-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/kongqingjie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/news-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/news-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/skin/css/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-7.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +59,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/skin/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\web-h5" />
       <recent name="D:\work\web-h5\skin\images" />
       <recent name="D:\work\mian\skin\images" />
     </key>
@@ -88,7 +97,9 @@
       <workItem from="1651758404932" duration="2799000" />
       <workItem from="1651761231355" duration="1489000" />
       <workItem from="1651842571161" duration="603000" />
-      <workItem from="1651979157042" duration="20030000" />
+      <workItem from="1651979157042" duration="20496000" />
+      <workItem from="1652102547193" duration="2351000" />
+      <workItem from="1652187799463" duration="2888000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1651984862062</created>
@@ -118,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651996343898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change">
+      <created>1652016781840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652016781840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,13 +180,17 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1651980154810" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1651996349256">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1652016961827">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1651996349256" />
-    <state x="662" y="114" width="596" height="804" key="find.popup" timestamp="1651671586498">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1652016961827" />
+    <state x="662" y="114" width="596" height="804" key="find.popup" timestamp="1652189193405">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="662" y="114" width="596" height="804" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1651671586498" />
+    <state x="662" y="114" width="596" height="804" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1652189193405" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1652103234809">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1652103234809" />
   </component>
 </project>
