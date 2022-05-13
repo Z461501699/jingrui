@@ -12,10 +12,12 @@
     <link href="./skin/css/media.css" rel="stylesheet" type="text/css">
     <link href="./skin/css/reset.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="./skin/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./skin/css/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <link rel="stylesheet" href="./skin/css/animate.min.css">
     <script type="text/javascript" src="./skin/js/jquery-1.10.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="./skin/js/swiper.animate1.0.3.min.js"></script>
+
     <script type="text/javascript" src="./skin/js/jquery.SuperSlide.2.1.2.js"></script>
     <script type="text/javascript" src="./skin/js/wow.min.js"></script>
     <script type="text/javascript">
@@ -46,17 +48,19 @@
             </div>
             <div class="inmuen">
                 <ul>
-                    <li><a class='on' href="/">首页</a></li>
+                    <li><a class='on' href="">首页</a></li>
 
-                    <li><a href="./a/about/gsjj/index.html">关于我们</a></li>
+                    <li><a href="">核心技术</a></li>
 
-                    <li><a href="./a/fuwu/index.html">服务项目</a></li>
+                    <li><a href="">产品中心</a></li>
 
-                    <li><a href="./a/news/index.html">新闻动态</a></li>
+                    <li><a href="">解决方案</a></li>
 
-                    <li><a href="./a/jiage/index.html">价格预览</a></li>
+                    <li><a href="">关于精锐</a></li>
 
-                    <li><a href="./a/contact/index.html">联系我们</a></li>
+                    <li><a href="">新闻中心</a></li>
+
+                    <li><a href="">联系我们</a></li>
 
                     <div class="clean"></div>
                 </ul>
@@ -129,7 +133,7 @@
                     <li>
                         <div class="box">
                             <div class="wow flipInY" data-wow-duration="1s" data-wow-delay="0.5s">
-                                <img src="./skin/images/11111.png" alt="">
+                                <img src="./skin/images/icon-1.png" alt="">
                             </div>
                             <div class="tit wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">高效</div>
                             <div class="jj wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -140,7 +144,7 @@
                     <li>
                         <div class="box">
                             <div class="wow flipInY" data-wow-duration="1s" data-wow-delay="0.5s"><img
-                                    src="./skin/images/11111.png" alt=""></div>
+                                    src="./skin/images/icon-2.png" alt=""></div>
                             <div class="tit wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">专业</div>
                             <div class="jj wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                                 30+博士后、博士、硕士，70+专利及软件著作权
@@ -150,7 +154,7 @@
                     <li>
                         <div class="box">
                             <div class="wow flipInY" data-wow-duration="1s" data-wow-delay="0.5s"><img
-                                    src="./skin/images/11111.png" alt=""></div>
+                                    src="./skin/images/icon-3.png" alt=""></div>
                             <div class="tit wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">灵活</div>
                             <div class="jj wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                                 超长灵活性7*24小时的持续技术支持，项目快速交付
@@ -160,7 +164,7 @@
                     <li>
                         <div class="box">
                             <div class="wow flipInY" data-wow-duration="1s" data-wow-delay="0.5s"><img
-                                    src="./skin/images/11111.png" alt=""></div>
+                                    src="./skin/images/icon-4.png" alt=""></div>
                             <div class="tit wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">权威</div>
                             <div class="jj wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">上海交通大学视觉实验室算法技术传承
                             </div>
@@ -192,7 +196,7 @@
                     <div class="content right">
                         <div class="right-header">
                             <div>精锐创始人</div>
-<!--                            <img src="./skin/images/close-icon.png" alt="">-->
+                            <!--                            <img src="./skin/images/close-icon.png" alt="">-->
                         </div>
                         <div class="right-content">
                             <img src="./skin/images/kongqingjie.png" alt="">
@@ -224,7 +228,7 @@
                     <div class="content right">
                         <div class="right-header">
                             <div>精锐创始人</div>
-<!--                            <img src="./skin/images/close-icon.png" alt="">-->
+                            <!--                            <img src="./skin/images/close-icon.png" alt="">-->
                         </div>
                         <div class="right-content">
                             <img src="./skin/images/kongqingjie.png" alt="">
@@ -251,9 +255,10 @@
             </div>
             <div class="videoBox about-company-img about-company-video">
                 <img src="./skin/images/news-1.png" alt="">
+                <img src="./skin/images/bofang.png" alt="">
             </div>
         </div>
-        <div class="inabout image">
+        <div class="inabout image" id="inaboutMain">
             <div class="innerval">
                 <div class="item">
                     <div class="value value1">
@@ -558,7 +563,7 @@
             </svg>
         </div>
         <div class="inabout max img">
-            <img src="./skin/images/003.jpg" alt="">
+            <img src="./skin/images/003.png" alt="">
         </div>
         <div class="inabout img" style="margin-bottom: 120px;"></div>
         <div class="inyous mt">

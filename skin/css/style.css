@@ -843,7 +843,6 @@ img {
     position: absolute;
     left: 0;
     top: 0;
-
     z-index: -1;
 }
 
@@ -1707,7 +1706,20 @@ img {
     width: 700px;
     height: 450px;
 }
-
+.about-company-img.about-company-video{
+    position: relative;
+}
+.about-company-img.about-company-video img:nth-of-type(2){
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left:calc((100% - 40px)/2);
+    top:calc((100% - 40px)/2);
+    z-index: 1;
+}
+.about-company-img.about-company-video img:nth-of-type(2):hover{
+    transform: scale(1.2);
+}
 .about-company-img img {
     width: 100%;
     height: 100%;
