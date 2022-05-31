@@ -96,4 +96,10 @@ window.onload = function() {
         }
     }
 }
-document.getElementById("numBox1").addEventListener('mouseenter',)
+// document.getElementById("numBox1").addEventListener('mouseenter',)
+document.getElementById('signUp').addEventListener('click',function(){
+    document.getElementById('dialog').style.visibility='visible'
+})
+document.getElementById('dialog-close').addEventListener('click',function(){
+    document.getElementById('dialog').style.visibility='hidden'
+})

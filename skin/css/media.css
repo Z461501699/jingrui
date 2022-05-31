@@ -3,27 +3,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .content {
-        max-width: 910px;
-    }
 
-    .header .inmuen ul li a {
-        padding: 0 20px;
-    }
-
-    .inadvyu .project {
-        width: 520px;
-        height: 350px;
-    }
-
-    .inadvyu .pic {
-        width: 520px;
-        height: 350px;
-    }
-
-    .inadvyu {
-        padding: 70px 0 70px 550px;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
