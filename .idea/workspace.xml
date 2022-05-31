@@ -17,86 +17,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42c8a7cb-4254-4ec3-a5bf-79ffb97fd836" name="Default Changelist" comment="change">
-      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/css/certify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/77.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/88.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/about-banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/aboutjr-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/fazhan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/img-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/lujing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/net.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/news-banner@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/oYYBAF2EoxGAN0fmAADT7ldTXcU219 2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/oYYBAF2EoxGAN0fmAADT7ldTXcU219 3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/oYYBAF2EoxGAN0fmAADT7ldTXcU219 4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/oYYBAF2EoxGAN0fmAADT7ldTXcU219 5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/oYYBAF2EoxGAN0fmAADT7ldTXcU219@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/banner@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/group-2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product1/part-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/banner@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product2/part-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/banner@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/product3/part-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/view-2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/js/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactUs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooperate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joinUs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joinUsDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/公众号二维码@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/定位@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/播放按钮@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/服务热线@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/联系我们@3x-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/images/邮箱@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web-h5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/about/gsjj/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/about/gsjj/list_6_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/about/qywh/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/about/qywh/list_7_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/contact/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/contact/list_5_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/fuwu/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/fuwu/10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/fuwu/9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/fuwu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/fuwu/list_2_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/jiage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/list_3_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/news/list_3_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en.html" beforeDir="false" afterPath="$PROJECT_DIR$/en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/news-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skin/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/icon02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/lianjie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/loading2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/nopic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/ny_07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/ny_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/pic01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/images/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/skin/images/com-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/skin/images/com-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/skin/images/com-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/skin/images/com-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/skin/images/com-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/images/com-8.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,22 +100,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/skin/images/product3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\web-h5\skin\images" />
+      <recent name="D:\work\web-h5" />
+      <recent name="D:\work\web-h5\skin\images\product3" />
+      <recent name="D:\work\web-h5\skin\images\product2" />
+      <recent name="D:\work\web-h5\skin\images\product1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\work\web-h5\skin\images" />
       <recent name="D:\work\web-h5\skin\js" />
       <recent name="D:\work\web-h5\skin\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\web-h5\skin\images\product3" />
-      <recent name="D:\work\web-h5\skin\images\product2" />
-      <recent name="D:\work\web-h5\skin\images\product1" />
-      <recent name="D:\work\web-h5" />
-      <recent name="D:\work\web-h5\skin\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -188,7 +161,11 @@
       <workItem from="1652358947887" duration="6507000" />
       <workItem from="1652440241927" duration="5320000" />
       <workItem from="1653661211970" duration="10333000" />
-      <workItem from="1653789771383" duration="25378000" />
+      <workItem from="1653789771383" duration="25486000" />
+      <workItem from="1653911487660" duration="8272000" />
+      <workItem from="1653923028097" duration="340000" />
+      <workItem from="1653923804337" duration="1713000" />
+      <workItem from="1653926191161" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1651984862062</created>
@@ -253,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652447501580</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change">
+      <created>1653836505226</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653836505226</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,25 +293,25 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1651980154810" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1652447502900">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1653836508489">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1652447502900" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1653836508489" />
     <state x="92" y="92" width="1736" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1652445711386">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="92" y="92" width="1736" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1652445711386" />
-    <state x="763" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653708140161">
+    <state x="763" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653912758097">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="763" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1653708140161" />
-    <state x="662" y="114" width="596" height="804" key="find.popup" timestamp="1653828164508">
+    <state x="763" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1653912758097" />
+    <state x="662" y="114" width="678" height="804" key="find.popup" timestamp="1653926732575">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="662" y="114" width="596" height="804" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1653828164508" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1652103234809">
+    <state x="662" y="114" width="678" height="804" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1653926732575" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1653920146181">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1652103234809" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1653920146181" />
   </component>
 </project>
