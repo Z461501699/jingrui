@@ -1,5 +1,4 @@
 (function () {
-
   var bv = new Bideo();
   bv.init({
     // Video element

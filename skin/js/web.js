@@ -1,4 +1,20 @@
-//导航按钮
+function resizeRem() {
+    if (window.innerWidth < window.innerHeight) {
+        var html = document.querySelector('html');
+        var rem = html.offsetHeight / 10.80;
+        html.style.fontSize = rem + "px";
+    } else {
+        var html = document.querySelector('html');
+        var rem = html.offsetWidth / 19.20;
+        html.style.fontSize = rem + "px";
+
+    }
+}
+
+resizeRem()
+window.addEventListener('resize', function () {
+    resizeRem()
+})
 $(".nav_handle").click(function () {
     $(".inmuen").slideToggle();
     $(this).toggleClass("on");
@@ -10,7 +26,7 @@ new Swiper('.aboutUs-swiper', {
         delay: 1500,
         disableOnInteraction: false,
     },
-    speed:1200,
+    speed: 1200,
     loop: false,//必须
     pagination: {
         el: '.aPagination',
@@ -79,16 +95,16 @@ function NumAutoPlusAnimation(numId) {
 }
 
 
-window.onload = function() {
+window.onload = function () {
     /**
      * 监听网页滚动事件
      */
-   window.onscroll = function (e) {
+    window.onscroll = function (e) {
         var visibleBottom = window.scrollY + document.documentElement.clientHeight;
         //可见区域顶部高度
         var visibleTop = window.scrollY;
-        var centerY = document.getElementById('inaboutMain').offsetTop+(document.getElementById('inaboutMain').offsetHeight/2);
-        if(centerY>visibleTop&&centerY<visibleBottom){
+        var centerY = document.getElementById('inaboutMain').offsetTop + (document.getElementById('inaboutMain').offsetHeight / 2);
+        if (centerY > visibleTop && centerY < visibleBottom) {
             NumAutoPlusAnimation(document.getElementById("numBox1"));
             NumAutoPlusAnimation(document.getElementById("numBox2"));
             NumAutoPlusAnimation(document.getElementById("numBox3"));
@@ -96,10 +112,16 @@ window.onload = function() {
         }
     }
 }
-// document.getElementById("numBox1").addEventListener('mouseenter',)
-document.getElementById('signUp').addEventListener('click',function(){
-    document.getElementById('dialog').style.visibility='visible'
-})
-document.getElementById('dialog-close').addEventListener('click',function(){
-    document.getElementById('dialog').style.visibility='hidden'
-})
+if (document.getElementById('signUp')) {
+    document.getElementById('signUp').addEventListener('click', function () {
+        document.getElementById('dialog').style.visibility = 'visible'
+    })
+}
+if (document.getElementById('dialog-close')) {
+    document.getElementById('dialog-close').addEventListener('click', function () {
+        document.getElementById('dialog').style.visibility = 'hidden'
+    })
+}
+
+
+

@@ -17,20 +17,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42c8a7cb-4254-4ec3-a5bf-79ffb97fd836" name="Default Changelist" comment="change">
-      <change afterPath="$PROJECT_DIR$/skin/images/关闭@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/images/弹框bg@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recruit-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skin/js/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joinUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/joinUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joinUsDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/joinUsDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooperate.html" beforeDir="false" afterPath="$PROJECT_DIR$/cooperate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skin/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/skin/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/skin/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skin/js/web.js" beforeDir="false" afterPath="$PROJECT_DIR$/skin/js/web.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,10 +58,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/skin/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -67,19 +73,38 @@
       <recent name="D:\work\web-h5\skin\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Bitnami\wampstack-8.1.6-0\apache2\htdocs" />
+      <recent name="D:\work\web\skin" />
       <recent name="D:\work\web\skin\images" />
       <recent name="D:\work\web-h5\skin\images" />
       <recent name="D:\work\web-h5" />
-      <recent name="D:\work\web-h5\skin\images\product3" />
-      <recent name="D:\work\web-h5\skin\images\product2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Database Script.console_1.sql">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="console_1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/074da9df-abcf-4288-84c8-271aec939f50/console_1.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-h5/a/fuwu/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.console_1.sql" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -112,7 +137,12 @@
       <workItem from="1653923804337" duration="1713000" />
       <workItem from="1653926191161" duration="619000" />
       <workItem from="1653956818667" duration="33000" />
-      <workItem from="1653995375772" duration="4960000" />
+      <workItem from="1653995375772" duration="5037000" />
+      <workItem from="1654219076426" duration="3908000" />
+      <workItem from="1654258419248" duration="1191000" />
+      <workItem from="1654321283860" duration="2084000" />
+      <workItem from="1654324324963" duration="5519000" />
+      <workItem from="1654523694832" duration="2404000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1651984862062</created>
@@ -184,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653836505226</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change">
+      <created>1654002865888</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654002865888</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +261,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="748" y="302" key="#Web_Browsers/0.0.1920.1032@0.0.1920.1032" timestamp="1651980155595" />
+    <state x="552" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1654326936482">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1654326936482" />
     <state x="702" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653747878854">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -236,14 +277,30 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="92" y="92" width="1736" height="848" key="DiffContextDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1653827655158" />
-    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1651980154810">
+    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1654222880946">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1651980154810" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1653956829866">
+    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1654222880946" />
+    <state width="1293" height="279" key="GridCell.Tab.0.bottom" timestamp="1654327076033">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1653956829866" />
+    <state width="1293" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1654327076033" />
+    <state width="1293" height="279" key="GridCell.Tab.0.center" timestamp="1654327076033">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1293" height="279" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1654327076033" />
+    <state width="1293" height="279" key="GridCell.Tab.0.left" timestamp="1654327076033">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1293" height="279" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1654327076033" />
+    <state width="1293" height="279" key="GridCell.Tab.0.right" timestamp="1654327076033">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1293" height="279" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1654327076033" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1654002889824">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1654002889824" />
     <state x="92" y="92" width="1736" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1652445711386">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

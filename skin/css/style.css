@@ -1796,7 +1796,7 @@ img {
 
 .inabout.img, .inabout.img img {
     width: 100%;
-    height: 960px;
+    height: 9.6rem;
 }
 
 .inyous ul li img {
@@ -1964,8 +1964,8 @@ select::-ms-expand {
 
 .footer {
     width: 100%;
-    height: 386px;
-    padding: 0 360px;
+    /*height: 3.86rem;*/
+    padding: 0 3.6rem;
     box-sizing: border-box;
     background: #343434;
     display: flex;
@@ -2005,11 +2005,12 @@ select::-ms-expand {
     height: 100%;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 33px 50px 0 0;
+    padding: 0.33rem 0.5rem 0.3rem 0;
+    box-sizing: border-box;
 }
 
 .footer-top-main.left div {
-    font-size: 15px;
+    font-size: 0.15rem;
     line-height: 26px;
     font-weight: 400;
     color: #A0A0A0;
@@ -2133,25 +2134,25 @@ select::-ms-expand {
 }
 
 .aboutjr .aboutjr-box {
-    width: 550px;
-    height: 380px;
-    padding: 32px 39px;
+    width: 5.5rem;
+    /*height: 3.8rem;*/
+    padding: 0.32rem .39rem;
     box-sizing: border-box;
     background: #F8F8F8;
 }
 
 .aboutjr img {
     width: 39%;
-    height: 450px;
+    height: 4.5rem;
     position: absolute;
-    right: 360px;
-    top: 80px;
+    right: 3.6rem;
+    top: .8rem;
     z-index: -1;
 }
 
 .aboutjr .aboutjr-box .title {
     width: 100%;
-    font-size: 28px;
+    font-size: .28rem;
     color: #333333;
     letter-spacing: 0;
     text-align: left;
@@ -2160,16 +2161,16 @@ select::-ms-expand {
 
 .aboutjr .aboutjr-box .subtitle {
     width: 100%;
-    font-size: 16px;
+    font-size: .16rem;
     color: #999999;
     letter-spacing: 0;
     text-align: left;
     font-weight: 400;
-    padding: 10px 0 30px 0;
+    padding: 0.1rem 0 .3rem 0;
 }
 
 .aboutjr .aboutjr-box .content {
-    font-size: 16px;
+    font-size: .16rem;
     color: #666666;
     letter-spacing: 0;
     text-align: justify;
@@ -2281,8 +2282,8 @@ select::-ms-expand {
 }
 
 .news-switchbar .box .item img {
-    width: 400px;
-    height: 260px;
+    width: 4rem;
+    height: 2.6rem;
 }
 
 .news-switchbar .box .item .right-box {
@@ -2290,23 +2291,23 @@ select::-ms-expand {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: .2rem;
     box-sizing: border-box;
     position: relative;
 }
 
 .news-switchbar .box .item .right-box .title {
-    height: 28px;
-    font-size: 20px;
+    min-height: .28rem;
+    font-size: .2rem;
     color: #333333;
     font-weight: 400;
     cursor: pointer;
 }
 
 .news-switchbar .box .item .right-box .sub {
-    height: 50px;
-    line-height: 35px;
-    font-size: 14px;
+    height: 0.5rem;
+    line-height: .35rem;
+    font-size: .14rem;
     color: #999999;
     font-weight: 400;
 }
@@ -2319,7 +2320,7 @@ select::-ms-expand {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     word-break: break-all;
-    font-size: 14px;
+    font-size: .14rem;
     color: #666666;
     text-align: justify;
     font-weight: 400;
@@ -2327,62 +2328,62 @@ select::-ms-expand {
 
 .news-switchbar .box .item .right-box .end {
     width: 100%;
-    margin-top: 50px;
+    margin-top: .5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .news-switchbar .box .item .right-box .end span img {
-    width: 16px;
-    height: 10.96px;
+    width: .16rem;
+    height: .1rem;
     margin-right: 5px;
 }
 
 .news-switchbar .box .item .right-box .end span {
-    font-size: 12px;
+    font-size: .12rem;
     color: #999999;
     font-weight: 400;
 }
 
 .news-switchbar .box .item .right-box .end img {
-    width: 46.69px;
-    height: 9.6px;
+    width: .46rem;
+    height: .096rem;
 }
 
 .news-switchbar .box .pagination {
     width: 100%;
-    padding: 50px 0;
+    padding: .5rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .news-switchbar .box .pagination .prev, .news-switchbar .box .pagination .next {
-    width: 88px;
-    height: 40px;
-    line-height: 40px;
+    width: .88rem;
+    height: .4rem;
+    line-height: .4rem;
     background: #FFFFFF;
     border: 1px solid rgba(230, 230, 230, 1);
     border-radius: 3px;
-    font-size: 14px;
+    font-size: .14rem;
     color: #999999;
     text-align: center;
     font-weight: 400;
 }
 
 .news-switchbar .box .pagination .pageSize {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: .44rem;
+    height: .4rem;
+    line-height: .4rem;
     text-align: center;
     background: #FFFFFF;
     border: 1px solid rgba(230, 230, 230, 1);
     border-radius: 3px;
-    font-size: 20px;
+    font-size: .2rem;
     color: #999999;
     font-weight: 400;
-    margin: 0 5px;
+    margin: 0 .05rem;
 }
 
 .news-switchbar .box .pagination .pageSize.on {
@@ -2638,23 +2639,23 @@ select::-ms-expand {
 }
 
 .part.text.large {
-    font-size: 24px;
+    font-size: .24rem;
     color: #333333;
     text-align: justify;
-    line-height: 30px;
+    line-height: .3rem;
     font-weight: 700;
 }
 
 .part .part-item2 {
     flex: 1;
-    margin: 0 10px;
+    margin: 0 .1rem;
     box-sizing: border-box;
 }
 
 .part .part-item {
     flex: 1;
-    height: 300px;
-    margin: 0 10px;
+    height: 3rem;
+    margin: 0 .1rem;
     box-sizing: border-box;
 }
 
@@ -2664,17 +2665,17 @@ select::-ms-expand {
 }
 
 .part .part-item.small {
-    padding: 0 150px;
+    padding: 0 1.5rem;
     /*height: 400px;*/
 }
 
 .part .part-item.text {
-    padding: 20px;
+    padding: .2rem;
     box-sizing: border-box;
 }
 
 .part .part-item-title {
-    font-size: 32px;
+    font-size: .32rem;
     color: #333333;
     font-weight: 500;
     position: relative;
@@ -2682,27 +2683,27 @@ select::-ms-expand {
 
 .part .part-item-title:after {
     content: '';
-    width: 178px;
-    height: 25px;
+    width: 1.78rem;
+    height: .25rem;
     opacity: 0.5;
     background: #C5E4E3;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -.10rem;
 }
 
 .part .part-item-value {
-    font-size: 18px;
+    font-size: .18rem;
     color: #333333;
     text-align: justify;
-    line-height: 40px;
+    line-height: .40rem;
     font-weight: 400;
-    margin-top: 46px;
+    margin-top: .46rem;
 }
 
 .part .part-title {
     width: 100%;
-    font-size: 32px;
+    font-size: .32rem;
     color: #333333;
     letter-spacing: 0;
     text-align: center;
@@ -2710,7 +2711,7 @@ select::-ms-expand {
 }
 
 .part .part-title.underline {
-    font-size: 32px;
+    font-size: .32rem;
     color: #333333;
     text-align: center;
     font-weight: 700;
@@ -2719,30 +2720,30 @@ select::-ms-expand {
 
 .part .part-title.underline:after {
     content: '';
-    width: 60px;
-    height: 6px;
+    width: .6rem;
+    height: .06rem;
     background: #179490;
     position: absolute;
-    bottom: -25px;
-    left: calc(50% - 30px);
+    bottom: -.25rem;
+    left: calc(50% - .3rem);
 }
 
 .part .part-sub {
     width: 100%;
-    font-size: 16px;
+    font-size: .16rem;
     color: #999999;
     letter-spacing: 0;
     text-align: center;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: .15rem;
 }
 
 .part .part-sub.mt {
-    margin-top: 50px;
+    margin-top: .5rem;
 }
 
 .part .part-item-subTitle {
-    font-size: 24px;
+    font-size: .24rem;
     color: #333333;
     font-weight: 700;
 }
@@ -2753,11 +2754,11 @@ select::-ms-expand {
 
 .part .part-item-subTitle.underline:after {
     content: '';
-    width: 60px;
-    height: 3px;
+    width: .6rem;
+    height: .03rem;
     background: #179490;
     position: absolute;
-    bottom: -25px;
+    bottom: -.25rem;
     left: 0;
 }
 
@@ -2767,12 +2768,12 @@ select::-ms-expand {
 
 .aboutCompany {
     width: 100%;
-    height: 254px;
+    height: 2.54rem;
     background: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 460px;
+    padding: 0 4.6rem;
     box-sizing: border-box;
 }
 
@@ -2783,29 +2784,29 @@ select::-ms-expand {
 
 .aboutCompany .left {
     flex: 1;
-    padding: 0 100px;
+    padding: 0 1rem;
     box-sizing: border-box;
 }
 
 .aboutCompany .left .title {
-    font-size: 18px;
+    font-size: .18rem;
     font-weight: 600;
     color: #333333;
-    line-height: 23px;
-    margin-bottom: 10px;
+    line-height: .23rem;
+    margin-bottom: .1rem;
 }
 
 .aboutCompany .left .item {
-    padding: 10px 0;
-    font-size: 8px;
+    padding: .1rem 0;
+    font-size: 0.08rem;
     font-weight: 300;
     color: #333333;
-    line-height: 20px;
+    line-height: .2rem;
 }
 
 .aboutCompany .left img {
-    width: 18px;
-    height: 18px;
+    width: .18rem;
+    height: .18rem;
 }
 
 .aboutCompany .right {
@@ -2814,31 +2815,31 @@ select::-ms-expand {
 }
 
 .aboutCompany .right img {
-    width: 110px;
-    height: 110px;
+    width: 1.1rem;
+    height: 1.1rem;
 }
 
 .aboutCompany .right div:nth-of-type(1) {
-    font-size: 13px;
+    font-size: .13rem;
     font-weight: 600;
     color: #333333;
-    line-height: 18px;
-    margin-bottom: 15px;
+    line-height: .18rem;
+    margin-bottom: .15rem;
 }
 
 .aboutCompany .right div:nth-of-type(2) {
-    font-size: 9px;
+    font-size: 0.09rem;
     font-weight: 400;
     color: #333333;
-    line-height: 13px;
-    margin-top: 10px;
+    line-height: .13rem;
+    margin-top: .1rem;
 }
 
 .position {
     width: 100%;
-    min-height: 440px;
+    min-height: 5.5rem;
     background: #fff;
-    padding: 0 460px;
+    padding: 0 4.6rem;
     box-sizing: border-box;
 }
 
@@ -2849,8 +2850,8 @@ select::-ms-expand {
 
 .position .top {
     width: 100%;
-    height: 90px;
-    padding: 35px 0 20px 0;
+    height: .9rem;
+    padding: .35rem 0 .2rem 0;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -2859,15 +2860,15 @@ select::-ms-expand {
 }
 
 .position .top .label {
-    font-size: 16px;
+    font-size: .16rem;
     font-weight: 500;
     color: #333333;
-    line-height: 24px;
+    line-height: .24rem;
 }
 
 .position .top .right {
-    width: 290px;
-    height: 35px;
+    width: 2.9rem;
+    height: .35rem;
     background: #F7F7F7;
     border: 1px solid #ccc;
     display: flex;
@@ -2876,17 +2877,17 @@ select::-ms-expand {
 }
 
 .position .top .right .text {
-    width: calc(100% - 45px);
+    width: calc(100% - .45rem);
     padding: 0 0 0 10px;
     font-size: 9px;
     font-weight: 400;
     color: #999999;
-    line-height: 14px;
+    line-height: .14rem;
 }
 
 .position .top .right .search {
-    width: 45px;
-    height: 35px;
+    width: .45rem;
+    height: .35rem;
     background: #00B083;
     display: flex;
     justify-content: center;
@@ -2894,14 +2895,14 @@ select::-ms-expand {
 }
 
 .position .top .right .search img {
-    width: 16px;
-    height: 16px;
+    width: .16rem;
+    height: .16rem;
 }
 
 .position .bottom {
     width: 100%;
-    height: 200px;
-    margin-top: 20px;
+    height: 2rem;
+    margin-top: .2rem;
 }
 
 .position .bottom .item {
@@ -2920,7 +2921,10 @@ select::-ms-expand {
 .position .bottom .item.val {
     cursor: pointer;
 }
-
+.position .bottom .item .value{
+    flex: 1;
+    text-align: center;
+}
 .position .bottom .item:nth-of-type(2n-1) {
     background: #EBEBEB;
 }

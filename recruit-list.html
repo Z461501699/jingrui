@@ -48,7 +48,7 @@
             </div>
             <div class="inmuen">
                 <ul>
-                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="">首页</a></li>
                     <li><a href="">产品中心</a>
                         <div class="select-option">
                             <a href="./product-1.html">木星一号</a>
@@ -60,9 +60,10 @@
                     <li><a href="./news.html">新闻中心</a></li>
                     <li><a class='on' href="">联系我们</a>
                         <div class="select-option">
-                            <a class='on' href="">联系我们</a>
+                            <a href="./contactUs.html">联系我们</a>
                             <a href="./cooperate.html">渠道合作</a>
                             <a href="./joinUs.html">加入我们</a>
+                            <a class='on' href="">渠道合作列表</a>
                         </div>
                     </li>
                     <div class="clean"></div>
@@ -84,49 +85,23 @@
         <div class="cPagination"></div>
     </div>
     <div class="content">
-        <div class="joinus max">
-            <div class="joinus-title" id="form-type">联系我们</div>
-            <div class="joinus-subtitle">填写您的资料与合作意向 我们会尽快与您联</div>
-            <div class="formBox">
-                <div class="form-item">
-                    <div class="form-item-label">姓名</div>
-                    <div class="form-item-value">
-                        <input id="userName" type="text" placeholder="请输入您的姓名">
-                    </div>
-                </div>
-                <div class="form-item">
-                    <div class="form-item-label">邮箱</div>
-                    <div class="form-item-value">
-                        <input id="email" type="text" placeholder="请输入您的邮箱">
-                    </div>
-                </div>
-                <div class="form-item w30">
-                    <div class="form-item-label">所在城市</div>
-                    <div class="form-item-value">
-                        <select id="city-name"></select>
-                    </div>
-                </div>
-                <div class="form-item  w30">
-                    <div class="form-item-label">区</div>
-                    <div class="form-item-value" id="cityMain"></div>
-                </div>
-                <div class="form-item w40">
-                    <div class="form-item-label">联系电话</div>
-                    <div class="form-item-value">
-                        <input id="phone-number" type="text" placeholder="请输入您的联系电话">
-                    </div>
-                </div>
-                <div class="form-item textarea">
-                    <div class="form-item-label">项目需求</div>
-                    <div class="form-item-value textarea">
-                        <textarea name="" id="demand" cols="" rows="" style="vertical-align:top;outline:none;"
-                                  placeholder="请输入您的合作需求，让我们更了解您"></textarea>
-                    </div>
-                </div>
+        <div class="position max">
+            <div class="top">
+                <div class="label">渠道合作</div>
+
             </div>
-            <div class="form-submit" id="submit">提交</div>
+            <div class="bottom" id="list-box">
+                <a class="item">
+                    <div class="value">公司名称</div>
+                    <div class="value">所在城市</div>
+                    <div class="value">所在地区</div>
+                    <div class="value">联系人姓名</div>
+                    <div class="value">联系电话</div>
+                    <div class="value">项目需求</div>
+                </a>
+            </div>
         </div>
-        <div class="joinus"></div>
+        <div class="position"></div>
         <div class="footer max">
             <div class="footer-top">
                 <div class="footer-top-main left">
@@ -166,8 +141,46 @@
 <script type="text/javascript" src="./skin/js/web.js"></script>
 <script type="text/javascript" src="./skin/js/bideo.js"></script>
 <script type="text/javascript" src="./skin/js/main.js"></script>
-<script type="application/javascript" src="./skin/js/form.js"></script>
-</html>
-<script>
+<script type="text/javascript">
+    let start = 0, limit = 90;
+    const features = ['company-name', 'city-name', 'district-name', 'contact-name', 'phone-number', 'demand']
 
+    function loadXMLDoc() {
+        let xmlhttp;
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                const resp = JSON.parse(xmlhttp.responseText);
+                const listBox = document.getElementById('list-box');
+
+                for (let i in resp.datas) {
+                    if ((resp.datas[i].features || {})['form-type'] === '渠道合作') {
+                        let item = document.createElement('a');
+                        item.className = 'item val';
+                        for (let j in features) {
+                            let _div = document.createElement('div');
+                            _div.className = 'value';
+                            _div.innerHTML = resp.datas[i].features[features[j]] || '--'
+                            item.appendChild(_div)
+                        }
+                        listBox.appendChild(item)
+                    }
+                }
+
+            }
+        }
+        let url = `http://localhost/fetchresume.php?start=${start}&limit=${limit}`
+        xmlhttp.open("GET", url, true);
+        xmlhttp.setRequestHeader("Content-Type", "application/json");
+        xmlhttp.send();
+    }
+
+    (function () {
+        loadXMLDoc()
+    })()
 </script>
+</html>
