@@ -2618,7 +2618,7 @@ select::-ms-expand {
 
 .part {
     width: 100%;
-    padding: 25px 360px;
+    padding: 0.25rem 3.6rem;
     box-sizing: border-box;
     position: relative;
     background: #f6f8f9;
@@ -2659,6 +2659,45 @@ select::-ms-expand {
     box-sizing: border-box;
 }
 
+.part .part-item .part-item-box {
+    width: 100%;
+    margin: 0.2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part .part-item .part-item-box .item {
+    width: 1.3rem;
+    height: 1.8rem;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #B1B1B1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: .17rem;
+    box-sizing: border-box;
+    margin: 0 .14rem;
+}
+
+.part .part-item .part-item-box .item img {
+    width: .45rem;
+    height: .45rem;
+}
+.part .part-item .part-item-box .item .tl{
+    font-size: .1rem;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 0.085rem;
+}
+.part .part-item .part-item-box .item .stl{
+    font-size: .12rem;
+    font-weight: 400;
+    color: #4E4E4E;
+    text-align: center;
+}
 .part .part-item img {
     width: 100%;
     height: 100%;
@@ -2693,7 +2732,7 @@ select::-ms-expand {
 }
 
 .part .part-item-value {
-    font-size: .18rem;
+    font-size: .09rem;
     color: #333333;
     text-align: justify;
     line-height: .40rem;
@@ -2921,10 +2960,12 @@ select::-ms-expand {
 .position .bottom .item.val {
     cursor: pointer;
 }
-.position .bottom .item .value{
+
+.position .bottom .item .value {
     flex: 1;
     text-align: center;
 }
+
 .position .bottom .item:nth-of-type(2n-1) {
     background: #EBEBEB;
 }
@@ -3013,13 +3054,15 @@ select::-ms-expand {
     color: #333333;
     line-height: 12px;
 }
-.joinusDet .content .msg{
+
+.joinusDet .content .msg {
     font-size: 9px;
     font-weight: 400;
     color: #333333;
     line-height: 32px;
 }
-.joinusDet .content .btn{
+
+.joinusDet .content .btn {
     width: 140px;
     height: 25px;
     text-align: center;
@@ -3033,10 +3076,12 @@ select::-ms-expand {
     margin: 50px auto;
     cursor: pointer;
 }
+
 .joinusDet .content .btn:hover {
     background: #3bb187;
 }
-.dialog{
+
+.dialog {
     width: 445px;
     height: 405px;
     background: #fff;
@@ -3050,7 +3095,8 @@ select::-ms-expand {
     flex-direction: column;
     visibility: hidden;
 }
-.dialog .bg{
+
+.dialog .bg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -3058,7 +3104,8 @@ select::-ms-expand {
     top: 0;
     z-index: -1;
 }
-.dialog .close{
+
+.dialog .close {
     width: 20px;
     height: 50px;
     position: absolute;
@@ -3066,14 +3113,16 @@ select::-ms-expand {
     left: 42px;
     cursor: pointer;
 }
-.dialog .dialog-title{
+
+.dialog .dialog-title {
     font-size: 16px;
     font-weight: 500;
     color: #333333;
     line-height: 23px;
     margin-bottom: 40px;
 }
-.dialog .dialog-label{
+
+.dialog .dialog-label {
     width: 100%;
     text-align: left;
     font-size: 14px;
@@ -3083,7 +3132,8 @@ select::-ms-expand {
     padding: 10px 35px;
     box-sizing: border-box;
 }
-.dialog .dialog-value{
+
+.dialog .dialog-value {
     width: calc(100% - 60px);
     height: 50px;
     line-height: 50px;
@@ -3094,7 +3144,8 @@ select::-ms-expand {
     padding: 0 15px;
     box-sizing: border-box;
 }
-.dialog .dialogBg{
+
+.dialog .dialogBg {
     width: 100vw;
     height: 100vh;
     position: fixed;
