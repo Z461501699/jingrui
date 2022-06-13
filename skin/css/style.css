@@ -29,18 +29,18 @@
 }
 
 .swiper-slide-bt {
-    width: 100px;
-    height: 30px;
+    width: 1.25rem;
+    height: 0.4rem;
     border-radius: 3px;
     border: 1px solid #FFFFFF;
     position: absolute;
-    left: calc(50% - 50px);
-    top: calc(60% - 5px);
+    left: calc(50% - 0.5rem);
+    top: calc(60% - 0.05rem);
     z-index: 1;
-    font-size: 9px;
+    font-size: .14rem;
     font-weight: 400;
     color: #FFFFFF;
-    line-height: 30px;
+    line-height:0.4rem;
     text-align: center;
 
 }
@@ -2951,7 +2951,7 @@ select::-ms-expand {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 500;
     color: #333333;
     line-height: 14px;
