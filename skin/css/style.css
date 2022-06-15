@@ -2732,7 +2732,7 @@ select::-ms-expand {
 }
 
 .part .part-item-value {
-    font-size: .09rem;
+    font-size: .16rem;
     color: #333333;
     text-align: justify;
     line-height: .40rem;
@@ -2963,9 +2963,13 @@ select::-ms-expand {
 
 .position .bottom .item .value {
     flex: 1;
+    font-size: .16rem;
     text-align: center;
 }
-
+.position .bottom .item .value.lg{
+    font-size: .18rem;
+    font-weight: 600;
+}
 .position .bottom .item:nth-of-type(2n-1) {
     background: #EBEBEB;
 }
