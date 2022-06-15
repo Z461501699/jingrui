@@ -2718,6 +2718,7 @@ select::-ms-expand {
     color: #333333;
     font-weight: 500;
     position: relative;
+    z-index: 1;
 }
 
 .part .part-item-title:after {
@@ -2729,6 +2730,7 @@ select::-ms-expand {
     position: absolute;
     left: 0;
     bottom: -.10rem;
+    z-index: -1;
 }
 
 .part .part-item-value {
